@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  color: white;
+}
+
+.colours {
+  color: #00ff49;
+  color: #0f005f;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+body {
+  font-family: Montserrat;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navigation {
+  word-spacing: 5px;
+  background-color: #00ff49;
+  box-sizing: border-box;
+}
+
+#navigation ul {
+  align-content: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  word-spacing: 80px;
+}
+
+li {
+  display: inline-block;
+}
+
+.home-page {
+  background-image: url("/images/duotone.png");
+  height: 100vh;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+}
+
+.singer-name {
+  font-size: 100px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: blue;
+}
+
+.box1 {
+  background-image: url("/src/images/duotone.png");
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 95vh;
+  background-attachment: fixed;
+  color: white;
+}
+
+.box2 {
+  background-image: url("/src/images/duotone (1).png");
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 95vh;
+  background-attachment: fixed;
+  color: white;
+}
+
+.box3 {
+  background-image: url("/src/images/duotone1.png");
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 95vh;
+  background-attachment: fixed;
+  color: white;
+}
